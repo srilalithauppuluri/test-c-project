@@ -1,0 +1,11 @@
+#!/bin/bash
+
+var1= "34"
+var2= "56"
+
+if [ $var1 -gt $var2 ]
+then
+echo "$var1 is big"
+else
+echo "$var2 is big"
+fi
